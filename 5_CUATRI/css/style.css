@@ -1,44 +1,58 @@
 .body{
     background: paleturquoise;
 }
-.fondo{
-    background: mintcream;
-  
-}
 
-.fondoo{
-    background: azure;
-    margin-top: 15px;
-    border: 2px solid black;
-    height: 700px;
-}
 
 .form{
     background: oldlace;
 }
 
-.fondo_factura{
+.fondo_yo{
     background: white;
-    margin-top: 15px;
+    margin-top: 40px;
     border: 2px solid silver;
-    height: 700px;
+    height: auto;
+    max-width: 1500px;
+    
 }
 
-.fondo_n{
-    background-color: black;
-}
-.fondo_nomina{
-    background: white;
-    margin-top: 15px;
-    border: 7px solid silver;
-    height: 700px;
+h1{
+    text-align: center;
+    font-family:cursive;
 }
 
-.table_prod{
-    width: 400px;
-    height: 360;
-    border-collapse: collapse;
-    margin: auto;
-    padding-left: 60;
+hr{
+    border-top: 5px solid black;
+    width: 50%;
+    margin: 0 auto;
 }
+
+h2, h3{
+    font-family: cursive;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gif{
+    display: block;
+    margin: 0 auto;
+}
+
+.hr1{
+    border-top: 5px solid blue;
+    margin-left: 0;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+.img1{
+    display: block;
+    margin: 0 auto;
+}
+
+
 
