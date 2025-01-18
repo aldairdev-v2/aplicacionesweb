@@ -77,6 +77,25 @@ p{
     color: aliceblue;
 }
 
+.btn_cont{
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    border:2px solid paleturquoise;
+    background-color: blue;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.fondo_form{
+    background: white;
+    margin-top: 40px;
+    border: 2px solid silver;
+    height: auto;
+    max-width: 300px;
+    
+}
+
 
 
 
