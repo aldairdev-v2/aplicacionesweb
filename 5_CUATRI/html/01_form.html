@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="../css/style.css">
     
 </head>
-<body class="body">
-    <div class="container fondo_form" >
-        <form>
-            <legend><b>CONTACTO</b></legend>
-            <input autofocus type="text" placeholder="Nombre (s)">
-            <input type="text" placeholder="Apellido paterno">
-            <input type="text" placeholder="Apellido materno">
-            <input type="email" placeholder="e-mail">
-            <input type="button" class="button btn-primary" value="ACEPTAR">
+<body class="body_form">
+    <div class="container fondo_form">
+        <form >
+            <legend><b>FORMULARIO DE CONTACTO</b></legend>
+            
+            <input class="form-control" autofocus type="text" placeholder="Nombre (s)" required><br>
+            <input class="form-control" type="text" placeholder="Apellido paterno" required><br>
+            <input class="form-control" type="text" placeholder="Apellido materno" required><br>
+            <input class="form-control" type="email" placeholder="e-mail" required><br>
+            <textarea class="form-control" placeholder="Mensaje" cols="30" rows="10" required></textarea><br>
+
+            <input type="submit" class="btn btn-success" value="ACEPTAR">
+            <input type="reset" class="btn btn-danger" value="CANCELAR"><br>
         </form>
+        <a href="01_blog.html" class="btn btn-secondary mt-3">Volver a la página principal</a><br>
     </div>
     
 </body>

@@ -1,5 +1,5 @@
 .body{
-    background: paleturquoise;
+    background: #CAFAFB ;
 }
 
 
@@ -71,7 +71,7 @@ p{
 }
 
 .bt_tbl{
-    border: 2px solid black;
+    border: none;
     background-color: blue;
     border-radius: 5px;
     color: aliceblue;
@@ -80,11 +80,18 @@ p{
 .btn_cont{
     width: 100px;
     height: 45px;
-    text-align: center;
-    border:2px solid paleturquoise;
-    background-color: blue;
+    margin: 5px;
+    text-align:center;
+    background-color: #007bff;
     border-radius: 5px;
     color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+
+/*FORMULARIO*/
+.body_form{
+    background: #CAFAFB ;
 }
 
 .fondo_form{
@@ -92,8 +99,8 @@ p{
     margin-top: 40px;
     border: 2px solid silver;
     height: auto;
-    max-width: 300px;
-    
+    max-width: 550px;
+    text-align: center;
 }
 
 
