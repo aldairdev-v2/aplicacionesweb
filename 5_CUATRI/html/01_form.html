@@ -12,14 +12,24 @@
 </head>
 <body class="body_form">
     <div class="container fondo_form">
-        <form >
+        <form style="left: auto;">
             <legend><b>FORMULARIO DE CONTACTO</b></legend>
             
-            <input class="form-control" autofocus type="text" placeholder="Nombre (s)" required><br>
-            <input class="form-control" type="text" placeholder="Apellido paterno" required><br>
-            <input class="form-control" type="text" placeholder="Apellido materno" required><br>
-            <input class="form-control" type="email" placeholder="e-mail" required><br>
+            <input class="form-control" autofocus type="text" placeholder="Nombre (s)" required/><br>
+            <input class="form-control" type="text" placeholder="Apellido paterno" required/><br>
+            <input class="form-control" type="text" placeholder="Apellido materno" required/><br>
+            <input class="form-control" type="date" min="2007-01-01" max="2025-01-26" /><br>
+
+            <label class="sx">
+                <b>Sexo:</b><br>
+                <p>Masculino <input name="sx" type="radio" /></p>
+                <p>Femenino <input name="sx" type="radio" /></p>
+            </label>
+
+            <input class="form-control" type="number" placeholder="Edad" min="1" max="99" step="1" required/><br>
+            <input class="form-control" type="email" placeholder="e-mail" required/><br>
             <textarea class="form-control" placeholder="Mensaje" cols="30" rows="10" required></textarea><br>
+           
 
             <input type="submit" class="btn btn-success" value="ACEPTAR">
             <input type="reset" class="btn btn-danger" value="CANCELAR"><br>

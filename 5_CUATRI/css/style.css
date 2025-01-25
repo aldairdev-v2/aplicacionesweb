@@ -12,8 +12,7 @@
     margin-top: 40px;
     border: 2px solid silver;
     height: auto;
-    max-width: 1500px;
-    
+    max-width: 1300px;
 }
 
 h1{
@@ -102,6 +101,11 @@ p{
     max-width: 550px;
     text-align: center;
 }
+
+.sx{
+    text-align: left;
+}
+
 
 
 
