@@ -12,23 +12,26 @@
 </head>
 <body class="body_form">
     <div class="container fondo_form">
-        <form style="left: auto;">
+        <form style="left: auto;" action="enviar.html" method="GET">
             <legend><b>FORMULARIO DE CONTACTO</b></legend>
             
-            <input class="form-control" autofocus type="text" placeholder="Nombre (s)" required/><br>
-            <input class="form-control" type="text" placeholder="Apellido paterno" required/><br>
-            <input class="form-control" type="text" placeholder="Apellido materno" required/><br>
-            <input class="form-control" type="date" min="2007-01-01" max="2025-01-26" /><br>
+            <input class="form-control" autofocus name="nombre" type="text" placeholder="Nombre (s)" required/><br>
+            <input class="form-control" type="text" name="ap_pat" placeholder="Apellido paterno" required/><br>
+            <input class="form-control" type="text" name="ap_mat" placeholder="Apellido materno" required/><br>
+            <input class="form-control" type="date" name="date" min="2007-01-01" max="2025-01-26" /><br>
 
-            <label class="sx">
-                <b>Sexo:</b><br>
-                <p>Masculino <input name="sx" type="radio" /></p>
-                <p>Femenino <input name="sx" type="radio" /></p>
-            </label>
+            <div style="text-align: left;">
+                <label>
+                    <b class="sx">Sexo:</b><br>
+                    <p>Masculino <input type="radio" name="sexo" /></p>
+                    <p>Femenino <input type="radio" name="sexo" /></p>
+                </label>
+            </div>
+            
 
-            <input class="form-control" type="number" placeholder="Edad" min="1" max="99" step="1" required/><br>
-            <input class="form-control" type="email" placeholder="e-mail" required/><br>
-            <textarea class="form-control" placeholder="Mensaje" cols="30" rows="10" required></textarea><br>
+            <input class="form-control" type="number" name="edad" placeholder="Edad" min="1" max="99" step="1" required/><br>
+            <input class="form-control" type="email" name="email" placeholder="e-mail" required/><br>
+            <textarea class="form-control" type="text" name="mnsj" placeholder="Mensaje" cols="30" rows="10" required></textarea><br>
            
 
             <input type="submit" class="btn btn-success" value="ACEPTAR">
