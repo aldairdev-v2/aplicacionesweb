@@ -12,7 +12,7 @@
 </head>
 <body class="body_form">
     <div class="container fondo_form">
-        <form style="left: auto;" action="enviar.html" method="GET">
+        <form style="left: auto;" action="enviar.html" method="post">
             <legend><b>FORMULARIO DE CONTACTO</b></legend>
             
             <input class="form-control" autofocus name="nombre" type="text" placeholder="Nombre (s)" required/><br>
@@ -23,8 +23,8 @@
             <div style="text-align: left;">
                 <label>
                     <b class="sx">Sexo:</b><br>
-                    <p>Masculino <input type="radio" name="sexo" /></p>
-                    <p>Femenino <input type="radio" name="sexo" /></p>
+                    <p>Masculino <input type="radio" name="sexo" value="man"/></p>
+                    <p>Femenino <input type="radio" name="sexo" value="fem"/></p>
                 </label>
             </div>
             
