@@ -3,10 +3,28 @@
     background-color: #e74c3c;
     color: white;
     font-weight: bold;
-    
+    padding: 10px;
+    padding-bottom: 15px;
     text-transform: uppercase;
     border-radius: 5px;
     border: none;
     margin-top: 10px;
+}
+
+.mi_boton:hover{
+    background-color:  #af2616;
+}
+
+.mi_input{
     
+    margin: 5px;
+    background-color: #FBFB90;
+}
+
+.mi_input:hover{
+    background-color: coral;
+}
+
+.mi_input:focus{
+    background-color: coral;
 }
