@@ -28,3 +28,34 @@
 .mi_input:focus{
     background-color: coral;
 }
+
+.lorem1{
+    width: 80%;
+    background-color:#af2616;
+    color:black ;
+    opacity: 75%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.lorem1:hover{
+    color: yellow;
+    opacity: 100%;
+    scale: 105%;
+    transition:all 300ms;
+}
+
+.check1{
+    margin-left: 50px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+
+}
+
+.check1+label, .check1+label+label{
+    color: blue;
+}
+
+.check1:checked+label, .check1:checked+label+label{
+    color: green; 
+}
